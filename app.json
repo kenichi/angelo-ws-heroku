@@ -1,0 +1,9 @@
+{
+  "name": "angelo-ws-heroku",
+  "description": "chat demo using websockets on heroku.com",
+  "website": "https://github.com/kenichi/angelo-ws-heroku",
+  "success_url": "/",
+  "addons": ["rediscloud"],
+  "env": {},
+  "scripts": {}
+}
