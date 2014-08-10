@@ -18,6 +18,14 @@ function createWebsocket() {
       scrollTop: $('#chat-text')[0].scrollHeight
     }, 800);
   };
+
+  ws.onopen = function(event) {
+    $("#chat-button").attr('disabled', false);
+  }
+
+  ws.onclose = function(event) {
+    $("#chat-button").attr('disabled', true);
+  }
 }
 
 $("#channel-form").on("submit", function(event) {
