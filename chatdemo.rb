@@ -10,6 +10,9 @@ module ChatDemo
     include Angelo::Tilt::ERB
     include Angelo::Mustermann
 
+    addr '0.0.0.0'
+    port ENV['PORT'] if ENV['PORT']
+
     # response for the post route
     #
     PUBLISHED = { status: 'published!' }
@@ -118,4 +121,4 @@ module ChatDemo
   end
 end
 
-ChatDemo::App.run
+ChatDemo::App.run!

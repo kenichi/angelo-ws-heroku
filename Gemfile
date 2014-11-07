@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+ruby '2.1.3'
 
 # changes needed for reel to work on heroku are not released yet
 #
@@ -10,7 +10,7 @@ gem 'reel', github: 'celluloid/reel'
 #
 gem 'http', github: 'tarcieri/http'
 
-gem 'angelo'
+gem 'angelo', github: 'kenichi/angelo', branch: 'moar_dsl'
 gem 'tilt'
 gem 'mustermann'
 

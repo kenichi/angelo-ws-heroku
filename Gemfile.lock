@@ -10,6 +10,15 @@ GIT
       websocket_parser (>= 0.1.6)
 
 GIT
+  remote: git://github.com/kenichi/angelo.git
+  revision: 5adaf36810e342378e5cc538584c068574a44e80
+  branch: moar_dsl
+  specs:
+    angelo (0.3.0pre)
+      mime-types (~> 2.4)
+      reel (~> 0.5)
+
+GIT
   remote: git://github.com/tarcieri/http.git
   revision: f405671c129f9d5bbf354cef542ea003a79eadcb
   specs:
@@ -19,9 +28,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    angelo (0.1.19)
-      mime-types
-      reel
     celluloid (0.15.2)
       timers (~> 1.1.0)
     celluloid-io (0.15.0)
@@ -32,7 +38,7 @@ GEM
       redis
     connection_pool (2.0.0)
     http_parser.rb (0.6.0)
-    mime-types (2.3)
+    mime-types (2.4.3)
     mustermann (0.2.0)
     nio4r (1.0.0)
     redis (3.1.0)
@@ -44,7 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  angelo
+  angelo!
   celluloid-redis
   connection_pool
   http!
