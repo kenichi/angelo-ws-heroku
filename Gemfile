@@ -10,7 +10,7 @@ gem 'reel', github: 'celluloid/reel'
 #
 gem 'http', github: 'tarcieri/http'
 
-gem 'angelo', github: 'kenichi/angelo', branch: 'moar_dsl'
+gem 'angelo', '~>0.3'
 gem 'tilt'
 gem 'mustermann'
 
