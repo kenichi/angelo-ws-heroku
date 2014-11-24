@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/celluloid/reel.git
-  revision: 99aa5123ebf97b6276b5a70fcc108052ad52ea69
+  revision: b69ad359f19ba72b8b3e72bc7dfeb48c9514f1df
   specs:
     reel (0.6.0)
       celluloid (>= 0.15.1)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/tarcieri/http.git
-  revision: f405671c129f9d5bbf354cef542ea003a79eadcb
+  revision: 94072a33c2e6755b8642f23cf13606d967449ade
   specs:
     http (0.6.1)
       http_parser.rb (~> 0.6.0)
@@ -19,25 +19,36 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    angelo (0.3.0)
+    angelo (0.3.1)
       mime-types (~> 2.4)
       reel (~> 0.5)
-    celluloid (0.15.2)
-      timers (~> 1.1.0)
-    celluloid-io (0.15.0)
-      celluloid (>= 0.15.0)
-      nio4r (>= 0.5.0)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    celluloid-io (0.16.1)
+      celluloid (>= 0.16.0)
+      nio4r (>= 1.0.0)
     celluloid-redis (0.0.2)
       celluloid-io (>= 0.13.0.pre)
       redis
-    connection_pool (2.0.0)
+    coderay (1.1.0)
+    connection_pool (2.1.0)
+    hitimes (1.2.2)
     http_parser.rb (0.6.0)
+    method_source (0.8.2)
     mime-types (2.4.3)
-    mustermann (0.2.0)
-    nio4r (1.0.0)
+    mustermann (0.3.1)
+      tool (~> 0.2)
+    nio4r (1.0.1)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     redis (3.1.0)
+    slop (3.6.0)
     tilt (2.0.1)
-    timers (1.1.0)
+    timers (4.0.1)
+      hitimes
+    tool (0.2.2)
     websocket_parser (0.1.6)
 
 PLATFORMS
@@ -49,5 +60,6 @@ DEPENDENCIES
   connection_pool
   http!
   mustermann
+  pry
   reel!
   tilt
