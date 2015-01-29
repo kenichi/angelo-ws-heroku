@@ -10,9 +10,9 @@ gem 'reel', github: 'celluloid/reel'
 #
 gem 'http', github: 'tarcieri/http'
 
-gem 'angelo', '~>0.3'
-gem 'tilt'
-gem 'mustermann'
+# top-level branch
+#
+gem 'angelo', github: 'kenichi/angelo', branch: 'tl3'
 
 gem 'celluloid-redis'
 gem 'connection_pool'
