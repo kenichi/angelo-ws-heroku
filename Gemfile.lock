@@ -11,8 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/kenichi/angelo.git
-  revision: 2b86aef1d27140e4f99513edb6ec35efb6657672
-  branch: _tl3
+  revision: 73fc71decc5d67f203150bdd7649c8e2fcb00a12
   specs:
     angelo (0.4.0pre)
       mime-types (~> 2.4)
