@@ -12,7 +12,7 @@ gem 'http', github: 'tarcieri/http'
 
 # top-level branch
 #
-gem 'angelo', github: 'kenichi/angelo', branch: 'tl3'
+gem 'angelo', github: 'kenichi/angelo', branch: '_tl3'
 
 gem 'celluloid-redis'
 gem 'connection_pool'
